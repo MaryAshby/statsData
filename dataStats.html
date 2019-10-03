@@ -59,11 +59,13 @@ report("#A2",answer)
       {
     return quiz.grade;
  }
+     var classroom = []
+             classroom.push=()
+
     var randomPenguin=classroom[].quizes.map(getGrade)
-    
-    d3.mean(randomPenguin)
-    classroom.push=()
-var answer=randomPenguin;
+
+    var rollforLuck = d3.mean(randomPenguin)
+var answer=rollforLuck;
 report("#A3",answer)    
 </script>
 </div>
@@ -76,7 +78,7 @@ report("#A3",answer)
       {
     return quiz.grade;
  }
-    var oneLiner = d3.mean(classroom[n+1].quizes, getGrade)
+    var oneLiner = d3.mean(classroom.quizes, getGrade)
 var answer=oneLiner;
     
 report("#A4",answer)    
@@ -90,8 +92,8 @@ report("#A4",answer)
       {
     return quiz.grade;
  }
-    var allYall=classroom[].quizes.map(getGrade)
-    d3.mean(allYall)
+    var allYall= d3.mean(classroom.quizes.map, getGrade)
+
 var answer=allYall;
 report("#A5",answer)    
 </script>
