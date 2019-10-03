@@ -60,9 +60,10 @@ report("#A2",answer)
     return quiz.grade;
  }
     var randomPenguin=classroom[].quizes.map(getGrade)
-    classroom.push=()
+    
     d3.mean(randomPenguin)
-var answer="randomPenguin";
+    classroom.push=()
+var answer=randomPenguin;
 report("#A3",answer)    
 </script>
 </div>
@@ -70,12 +71,14 @@ report("#A3",answer)
 <div id="A4">
 <h3>Find the mean quiz score of each penguins.  Use one line of "code"</h3>
 <script>
+    
      var getGrade = function(quiz)
       {
     return quiz.grade;
  }
-    var oneLiner=classroom[].quizes.map(getGrade)d3.mean(oneLiner)
-var answer="oneLiner";
+    var oneLiner=classroom[n+1].quizes.map(getGrade) d3.mean(oneLiner)
+var answer=oneLiner;
+    
 report("#A4",answer)    
 </script>
     </div>
@@ -89,7 +92,7 @@ report("#A4",answer)
  }
     var allYall=classroom.quizes.map(getGrade)
     d3.mean(allYall)
-var answer="allYall";
+var answer=allYall;
 report("#A5",answer)    
 </script>
     </div>
