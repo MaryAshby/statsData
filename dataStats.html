@@ -76,7 +76,7 @@ report("#A3",answer)
       {
     return quiz.grade;
  }
-    var oneLiner=classroom[n+1].quizes.map(getGrade) d3.mean(oneLiner)
+    var oneLiner = d3.mean(classroom[n+1].quizes, getGrade)
 var answer=oneLiner;
     
 report("#A4",answer)    
@@ -90,7 +90,7 @@ report("#A4",answer)
       {
     return quiz.grade;
  }
-    var allYall=classroom.quizes.map(getGrade)
+    var allYall=classroom[].quizes.map(getGrade)
     d3.mean(allYall)
 var answer=allYall;
 report("#A5",answer)    
