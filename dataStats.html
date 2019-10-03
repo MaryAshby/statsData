@@ -46,8 +46,8 @@ report("#A1",answer)
     return quiz.grade;
  }
     var data=classroom[0].quizes.map(getGrade)
-    d3.mean(data)
-var answer=data;
+    var finalAnswer = d3.mean(data)
+var answer=finalAnswer;
 report("#A2",answer)    
 </script>
 </div>
