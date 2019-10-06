@@ -11,28 +11,31 @@ font-size: 14px;
 
 h1
 {
-font-family: Elephant;
+font-family: Bookman;
   font-color: #000000;
   text-align: center;
   }
 
 h2
 {
-  font-family: Elephant;
+  font-family: Bookman;
   font-color: #000000;
   padding: 10px 50px;
   text-align: left;
 }
 
 /*unvisited link*/
-a:link {
+a:link
+{
   color: #420420;
 }
 
 /*visited link*/
-a:visited {
+a:visited
+{
   color: #C86734;
-  
+}
+
 a:hover 
 {
   background-color: #86B7C5;
@@ -43,14 +46,14 @@ a:hover
  
 .tableofcontents
 {
-  font-family: Elephant;
+  font-family: Bookman;
   font-color: #3f3f3f;
   font-size: 32px;
-  padding: 60px;
+  padding: 20px 100px 0px 0px;
   float: right;
 }
 
-  .TOCimage
+  #TOCimage
 {
   width: 40%;
    position: relative;
