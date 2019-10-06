@@ -64,11 +64,20 @@ a:hover
   left: 650px;
 }
 
-  img
+  div#tocimage
 {
   width: 40%;
    position: relative;
   left: 100px;
   bottom: 300px;
   border-radius: 25px;
+}
+
+/*chapter 1*/
+
+.god
+{ 
+  width: 20%;
+  float: right;
+  border-radius: 40%;
 }
