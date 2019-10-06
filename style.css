@@ -1,9 +1,11 @@
 body
 {
+    width: 1200px;
 background-image: url("pages.png");
 background-repeat: no-repeat;
 background-size: contain;
 font-family: Arial;
+
 }
 
 h1
@@ -31,11 +33,10 @@ a:link
 {
   color: #420420;
   background-color: #dfd2d5;
-  font-size: 16px;
   padding: 14px 25px;
   text-align: center;
   display: inline-block;
- border-radius: 15px;
+ border-radius: 10px;
 }
 
 
