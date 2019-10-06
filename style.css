@@ -9,7 +9,7 @@ font-family: Arial;
 
 h1
 {
-font-family: Elephant;
+font-family: Bookman;
 color: #000000; 
 text-align: center;
   padding: 60px 0px 0px 20px;
@@ -17,10 +17,10 @@ text-align: center;
 
 h2
 {
-  font-family: Elephant;
+  font-family: Bookman;
   color: #000000;
   padding: 10px 50px;
-  text-align: left;
+  text-align: right;
 }
 
 /*unvisited link*/
@@ -45,13 +45,13 @@ a:hover
  
 .tableofcontents
 {
-  font-family: Elephant;
+  font-family: Bookman;
   font-color: #3f3f3f;
   font-size: 32px;
   float: right;
 }
 
-  #TOCimage
+  img
 {
   width: 30%;
    position: relative;
