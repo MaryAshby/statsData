@@ -69,4 +69,5 @@ a:hover
    position: relative;
   left: 100px;
   bottom: 300px;
+  radius: 25px;
 }
