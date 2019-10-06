@@ -1,0 +1,18 @@
+body
+{
+background-image: url("");
+background-size: cover
+width: 1000px;
+repeat: no-repeat;
+color: #daebf6;
+font-family: Aerial;
+font-size: 14px;
+}
+
+h1
+{
+font-family: Elephant;
+  font-color: #000080;
+  padding: 10px 10px;
+  }
+  
