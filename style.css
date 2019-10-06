@@ -2,7 +2,7 @@ body
 {
     width: 1200px;
 background-image: url("pages.png");
-background-repeat: no-repeat;
+background-repeat: repeat-y;
 background-size: contain;
 font-family: Arial;
 
@@ -64,7 +64,7 @@ a:hover
   left: 650px;
 }
 
-  div#tocimage
+ #tocimage
 {
   width: 40%;
    position: relative;
@@ -80,4 +80,11 @@ a:hover
   width: 20%;
   float: right;
   border-radius: 40%;
+}
+
+p
+{
+    position: relative;
+    left: 115px;
+    width: 500px;
 }
