@@ -2,7 +2,7 @@ body
 {
 background-image: url("pages.png");
 background-size: cover;
-width: 1000px;
+width: 1200px;
 repeat: no-repeat;
 font-family: Arial;
 }
@@ -12,6 +12,7 @@ h1
 font-family: Elephant;
 color: #000000; 
 text-align: center;
+  padding: 60px 0px 0px 20px;
   }
 
 h2
@@ -47,13 +48,12 @@ a:hover
   font-family: Elephant;
   font-color: #3f3f3f;
   font-size: 32px;
-  padding: 50px 100px 0px 0px;
   float: right;
 }
 
   #TOCimage
 {
-  width: 35%;
+  width: 30%;
    position: relative;
   left: 75px;
 }
