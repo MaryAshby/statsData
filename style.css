@@ -1,6 +1,6 @@
 body
 {
-background-image: url("scrapbook-1345381_1280.png");
+background-image: url("pages.png");
 background-size: cover;
 width: 1000px;
 repeat: no-repeat;
@@ -9,15 +9,15 @@ font-family: Arial;
 
 h1
 {
-font-family: Bookman;
-  font-color: #000000;
-  text-align: center;
+font-family: Elephant;
+color: #000000; 
+text-align: center;
   }
 
 h2
 {
-  font-family: Bookman;
-  font-color: #000000;
+  font-family: Elephant;
+  color: #000000;
   padding: 10px 50px;
   text-align: left;
 }
@@ -44,7 +44,7 @@ a:hover
  
 .tableofcontents
 {
-  font-family: Bookman;
+  font-family: Elephant;
   font-color: #3f3f3f;
   font-size: 32px;
   padding: 50px 100px 0px 0px;
