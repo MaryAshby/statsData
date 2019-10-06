@@ -78,8 +78,8 @@ a:hover
 .god
 { 
   width: 20%;
-  float: right;
-  border-radius: 40%;
+  position: relative;
+    left: 500px;
 }
 
 p
