@@ -12,8 +12,10 @@ h1
 font-family: Bookman;
 color: #000000; 
 position: relative;
-  left: 100px;
+  left: 150px;
+  top: 125px;
   width: 400px;
+  
   }
 
 h2
@@ -50,8 +52,9 @@ a:hover
   font-family: Bookman;
   font-color: #3f3f3f;
   font-size: 32px;
-  float: right;
-  padding: 0px 0px 100px 0px;
+  padding: 10px 10px;
+  position: relative;
+  left: 650px;
 }
 
   img
