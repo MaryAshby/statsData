@@ -64,9 +64,9 @@ a:hover
   left: 650px;
 }
 
- #tocimage
+img#tocimage
 {
-  width: 40%;
+  width: 400;
    position: relative;
   left: 100px;
   bottom: 300px;
@@ -77,14 +77,13 @@ a:hover
 
 .god
 { 
-  width: 20%;
-  position: relative;
-    left: 500px;
+  width: 400px;
+  float: right;
 }
 
 p
 {
     position: relative;
     left: 115px;
-    width: 500px;
+    width: 475px;
 }
