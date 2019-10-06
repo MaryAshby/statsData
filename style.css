@@ -1,8 +1,8 @@
 body
 {
 background-image: url("pages.png");
-  repeat: no-repeat;
-  background-size: contain;
+background-repeat: no-repeat;
+background-size: contain;
 font-family: Arial;
 }
 
@@ -36,7 +36,7 @@ a:link
   padding: 14px 25px;
   text-align: center;
   display: inline-block;
- border-radius: 25px;
+ border-radius: 15px;
 }
 
 
