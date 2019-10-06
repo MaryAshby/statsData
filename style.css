@@ -1,8 +1,8 @@
 body
 {
 background-image: url("pages.png");
+  repeat: no-repeat;
   background-size: contain;
-repeat: no-repeat;
 font-family: Arial;
 }
 
@@ -51,7 +51,7 @@ a:hover
   font-family: Bookman;
   font-color: #3f3f3f;
   font-size: 32px;
-  padding: 10px 10px;
+  padding: 10px 10px 20px 0px;
   position: relative;
   left: 650px;
 }
@@ -61,4 +61,5 @@ a:hover
   width: 40%;
    position: relative;
   left: 100px;
+  bottom: 400px;
 }
