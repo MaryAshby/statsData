@@ -1,8 +1,7 @@
 body
 {
 background-image: url("pages.png");
-background-size: cover;
-width: 1000px;
+  background-size: contain;
 repeat: no-repeat;
 font-family: Arial;
 }
