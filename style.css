@@ -51,6 +51,12 @@ a:hover
   background-color: #86B7C5;
 }
 
+pre
+{
+  position: relative;
+    left: 200px;
+}
+
 /*Table of contents page*/
 
  
