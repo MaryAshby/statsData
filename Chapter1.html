@@ -22,10 +22,14 @@
    <i>   And then the great diety said, "Create a funtion to get the grade from a quiz object". </i>                   
     </p>
     <p>
-       And because they were a kind diety, the answer was given as such:<br />
+       And because they were a kind diety, the answer was given as such:
+    </p>
     <pre>var getGrad=function(quiz) {return quiz.grade;}</pre>
-    The function could be tested with: <br />
+    <p>
+    The function could be tested with: 
+    </p>
     <pre>getGrade(classroom[0].quizes[0])</pre> 
+    <p>
     Where the "0" references the first item in the data sets given <br />
     i.e. classroom[0] is the first penguin in class and quizes[0] is the first quiz of said penguin.
     </p>
@@ -36,7 +40,7 @@
     </p>
   
 <p>
-  A2 <br/>
+  A2 <br />
   <i>One quiz grade is not enough! You must find the mean of the quiz grades for the first penquin - who will henceforth be known as "Kevin"</i>.
   </p>
   <p>
@@ -49,6 +53,21 @@
   quiz grades must be calculated with two new tools - map and d3.mean. Kevin = classroom[0] and his quizzes are mapped to getGrade so that the mean
   can then be calculated and returned.
 </p>
+  
+  <p>
+    A3 <br />
+    <i> The mean of quizzes for Kevin is not enough! You must now creat a function to find the mean quiz grade for any of the penguins!</i>
+  </p>
+  <p>
+    In this manner we were taught to create the world of penquin. 
+  </p>
+  <pre>var getPenguin=function(penguin){var pq=penguin.quizes.map(getGrade); var answer=d3.mean(pq); return answer;}</pre>
+  <p> 
+    And it can be tested with our faithful Kevin.
+  </p>
+  <pre> var answer=getPenguin(classroom[0])</pre>
+  
+  
   </body>
 </html>
     
