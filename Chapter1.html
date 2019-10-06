@@ -19,7 +19,7 @@
     </div>
     <p>
       A1 <br />
-   <i>   And then the great diety said, "Create a funtion to get the grade from a quiz object". </i>                   
+   <i>   And then the great diety said,<b> Create a funtion to get the grade from a quiz object. </b></i>                   
     </p>
     <p>
        And because they were a kind diety, the answer was given as such:
@@ -41,7 +41,7 @@
   
 <p>
   A2 <br />
-  <i>One quiz grade is not enough! You must find the mean of the quiz grades for the first penquin - who will henceforth be known as "Kevin"</i>.
+  <i><b>One quiz grade is not enough! You must find the mean of the quiz grades for the first penquin - who will henceforth be known as "Kevin"</b></i>.
   </p>
   <p>
     Again, the diety assisted with the creation of this kind, caring function. A new tool was given. <b>THE GREAT D3</b>.<br />
@@ -56,7 +56,7 @@
   
   <p>
     A3 <br />
-    <i> The mean of quizzes for Kevin is not enough! You must now creat a function to find the mean quiz grade for any of the penguins!</i>
+    <i><b> The mean of quizzes for Kevin is not enough! You must now creat a function to find the mean quiz grade for any of the penguins!</b></i>
   </p>
   <p>
     In this manner we were taught to create the world of penquin. 
@@ -66,7 +66,27 @@
     And it can be tested with our faithful Kevin.
   </p>
   <pre> var answer=getPenguin(classroom[0])</pre>
-  
+
+    <div class="world">
+    <img src="world.png alt"">
+                             </div>
+     <p>                        
+    A4 <br />
+     <i><b>That looks sloppy. Do it with only one line of code or FEEL MY WRATH!</b></i><br />
+   So we once again bowed our heads and by forgoing the warm embrace of the function, shortened the command to:
+                             <pre> var meanquizpq=d3.mean(classroom.map(getPenguin))</pre>
+                             </p>
+                             
+     <p> By now, there was sweat on our brows. Tears had been shed. But there was no reprieve. . . </p>
+       <p>
+      A5 <br />
+       <i><b>You found the mean quiz score for each penguin, now find the mean quiz score of all the penquins!</b></i>
+           </p>
+                             
+                             <pre>var allYall=d3.mean(classroom.map(getPenguin))</pre>
+                             
+              
+                             
   
   </body>
 </html>
