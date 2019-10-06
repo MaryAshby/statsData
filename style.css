@@ -12,17 +12,30 @@ font-size: 14px;
 h1
 {
 font-family: Elephant;
-  font-color: #004040;
-  padding: 50px 10px;
+  font-color: #000000;
   text-align: center;
   }
 
 h2
 {
   font-family: Elephant;
-  font-color: #004040;
-  padding: 50px 10px;
+  font-color: #000000;
+  padding: 10px 50px;
   text-align: left;
+}
+
+/*unvisited link*/
+a:link {
+  color: #420420;
+}
+
+/*visited link*/
+a:visited {
+  color: #C86734;
+  
+a:hover 
+{
+  background-color: #86B7C5
 }
 
 /*Table of contents page*/
@@ -33,7 +46,7 @@ h2
   font-family: Elephant;
   font-color: #3f3f3f;
   font-size: 32px;
-  padding: 25px;
+  padding: 60px;
   float: right;
 }
 
