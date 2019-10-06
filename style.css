@@ -4,9 +4,7 @@ background-image: url("scrapbook-1345381_1280.png");
 background-size: cover;
 width: 1000px;
 repeat: no-repeat;
-color: #daebf6;
 font-family: Arial;
-font-size: 14px;
 }
 
 h1
@@ -49,13 +47,13 @@ a:hover
   font-family: Bookman;
   font-color: #3f3f3f;
   font-size: 32px;
-  padding: 20px 100px 0px 0px;
+  padding: 50px 100px 0px 0px;
   float: right;
 }
 
   #TOCimage
 {
-  width: 40%;
+  width: 35%;
    position: relative;
-  left: 50px;
+  left: 75px;
 }
