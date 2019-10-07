@@ -31,8 +31,8 @@
  {
     return quiz.grade;
  }
-    getGrade(classroom[0].quizes[0])
-var answer=getGrade; 
+   var answer = getGrade;
+
     
 report("#A1",answer)    
 </script>
@@ -43,9 +43,9 @@ report("#A1",answer)
 <script>
   
     var data=classroom[0].quizes.map(getGrade)
-    var finalAnswer = d3.mean(data)
-var answer=finalAnswer;
-report("#A2",answer) 
+    var findMean = d3.mean(data)
+
+report("#A2",findMean) 
     
 </script>
 </div>
@@ -53,17 +53,16 @@ report("#A2",answer)
 <div id="A3">
 <h3>Create a function to find the mean of the quiz grades for a given penguin.</h3>
 <script>
-     var getPenguin = function(penguin)
+     var meanQuiz = function(penguin)
     {
-        
     
-    var pq= penguin.quizes.map(getGrade);
+    var pq = penguin.quizes.map(getGrade);
         var answer=d3.mean(pq);
         return answer;
  }
      
    
-var answer= getPenguin(classroom[0])
+var answer= meanQuiz;
 
 
 report("#A3",answer)    
@@ -75,11 +74,10 @@ report("#A3",answer)
 <h3>Find the mean quiz score of each penguins.  Use one line of "code"</h3>
     
 <script>
-  var meanquizpq =  d3.mean(classroom.map(getPenguin))
+  var meanQuizEach =  d3.mean(classroom.map(meanQuiz))
   
-  var answer=meanquizpq
     
-report("#A4",answer)    
+report("#A4",meanQuizEach)    
 </script>
     </div>
 
@@ -87,12 +85,16 @@ report("#A4",answer)
 <h3>Find the mean of all the quiz score of the class. </h3>
 <script>
      
-    var allYall= d3.mean(classroom.map(getPenguin))
+    var allYallQuiz = function(penguin)
+    {
     
-
-var answer=allYall;
+    var pq = penguin.quizes.map(meanQuizEach);
+        var answer=d3.mean(pq);
+        return answer;
+ }
+     
     
-report("#A5",answer)    
+report("#A5",allYallQuiz)    
 </script>
     </div>
     
@@ -102,17 +104,12 @@ report("#A5",answer)
 <h3>Create a function that takes a penguin object and returns an object that contains one attribute, the picture of that penguin</h3>
 <script>
     
-   
-    
-    var genPen=function(penguin)
-    { var obj={picture: penguin.picture};
-     return obj;
+    var picture=function(penguin)
+    { return penguin.picture;
+     
     }
-    
-var answer=genPen;
-    
    
-report("#A6",answer)    
+report("#A6",picture)    
 </script>
     </div>
 
@@ -120,21 +117,21 @@ report("#A6",answer)
 <h3>Expand your function from the last one, so that the object it returns not only has a picture attribute, but also new attribute called quizMean, which is the mean of that penguins quiz scores</h3>
 <script>
 //be sure to test your function out.
- var genPen=function(penguin)
- {
- var quizMean = meanquizpq
- var obj= {picture: penguin.picture}
- return [quizMean, obj]
+    
+ var twopqobjs=function(penguin)
+ {return picture, meanQuiz;}
  
-  }
-report("#A7",answer)    
+report("#A7",twopqobjs)    
 </script>
     </div>
 
 <div id="A8">
 <h3>With one line of code, return a list of objects that contain the picture and meanQuiz grade of all penguins</h3>
 <script>
-var answer="please complete";
+    
+   var answer = 
+    
+
 report("#A8",answer)    
 </script>
     </div>
