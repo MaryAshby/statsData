@@ -70,7 +70,7 @@ pre
   left: 650px;
 }
 
-img#tocimage
+.img.tocimage
 {
   width: 400;
    position: relative;
@@ -84,7 +84,8 @@ img#tocimage
 .god
 { 
   width: 200px;
-  float: right;
+  position: relative;
+    right: 600px;
 }
 
 p
