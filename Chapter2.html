@@ -9,7 +9,7 @@
              
   <a href= "Chapter1.html">Chapter 1 A1-A5</a>   
 
-<a href= "Chapter2.html">Chapter 2 A6-A12</a>
+<a href= "Chapter2.html">Chapter 2 A6-A10</a>
    
 <a href= "Chapter3.html">Chapter 3 B1</a>
    
@@ -53,6 +53,50 @@
     
     <p>A9<br />
       
+My child is hungry, my mother lost to the fog. But there will be nothing until the work is complete.
+    </p>
+    <p>
+    <i><b>Tell me everything!<i/></b>
+      </p>
+      <p>
+      <pre>  var testGrade= function(test)
+    {return test.grade;}
+    
+    var meanTests= function(penguin)
+    {var pq=penguin.test.map(testGrade);
+    var answer=d3.mean(pq);
+    return answer;}
+    
+   var HWGrade=function(homework)
+    {return homework.grade;}
+    
+    var meanHW=function(penguin)
+    {var pq=penguin.homework.map(HWGrade);
+    var answer=d3.mean(pq);
+    return answer;}
+    
+    var finalGrade=function(final)
+  {return final.grade;
+    }
+    
+    var genInfo=function (penguin)
+    {
+    return [picture, meanQuiz, meanTests, meanHW, finalGrade];
+    }
 
-</body>
+        var answer=genInfo; </pre>
+    </p>
+  <p>
+    Now comes the great debate - to drink Red Bull at 11pm or push thru without. I opt to go without because I will need to rest my weary brow.
+  </p>
+  <p>
+    The diety whispers, with a gleam in his eye. . .<i><b>Now do it all with one line of code</i></b>
+  </p>
+  <p>
+    <pre>
+      var answer=d3.select(classroom.map(genInfo))
+</pre>
+  </p>
+  
+  </body>
 </html>
