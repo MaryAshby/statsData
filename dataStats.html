@@ -129,7 +129,7 @@ report("#A7",twopqobjs)
 <h3>With one line of code, return a list of objects that contain the picture and meanQuiz grade of all penguins</h3>
 <script>
     
-   var answer = 
+var answer=d3.select(classroom.map(meanQuiz), classroom.map(picture))
     
 
 report("#A8",answer)    
@@ -145,7 +145,32 @@ report("#A8",answer)
         <li>meanHW</li>
         <li>finalGrade</li>
     </ul>
-<script>
+    <script>
+   var testGrade= function(test)
+    {return test.grade;}
+    
+    var meanTests= function(penguin)
+    {var pq=penguin.test.map(testGrade);
+    var answer=d3.mean(pq);
+    return answer;}
+    
+   var HWGrade=function(homework)
+    {return homework.grade;}
+    
+    var meanHW=function(penguin)
+    {var pq=penguin.homework.map(HWGrade);
+    var answer=d3.mean(pq);
+    return answer;}
+    
+    var finalGrade=function(final)
+  {return final.grade;
+    }
+    
+    var genInfo=function (penguin)
+    {
+    return [picture, meanQuiz, meanTests, meanHW, finalGrade];
+    }
+
 var answer="please complete";
 report("#A9",answer)    
 </script>
