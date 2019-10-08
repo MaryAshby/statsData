@@ -74,9 +74,8 @@ pre
 .tocimage
 {
   width: 400;
-   position: relative;
-  left: 100px;
-  border-radius: 25px;
+  float: left;
+    border: 100px;
 }
 
 /*chapter 1*/
