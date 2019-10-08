@@ -55,6 +55,7 @@ pre
 {
   position: relative;
     left: 200px;
+    width: 300px;
 }
 
 /*Table of contents page*/
@@ -70,7 +71,7 @@ pre
   left: 650px;
 }
 
-.img.tocimage
+.tocimage
 {
   width: 400;
    position: relative;
@@ -85,7 +86,7 @@ pre
 { 
   width: 200px;
   position: relative;
-    right: 600px;
+    left: 600px;
 }
 
 p
