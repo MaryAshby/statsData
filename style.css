@@ -74,7 +74,8 @@ pre
 .tocimage
 {
   width: 400;
-  float: left;
+  position: relative:
+   top:20px;
     border: 100px;
 }
 
@@ -89,9 +90,7 @@ pre
 
 p
 {
-    position: relative;
-    left: 115px;
-    width: 475px;
+    position: center;
 }
 
 .world
