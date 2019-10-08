@@ -49,23 +49,25 @@
   
   </p>
 <p>
-  In the first question, we used Kevin as an example to retrieve his quiz grade and saved it in a variable named "getGrade". Now Kevin's mean
-  quiz grades must be calculated with two new tools - map and d3.mean. Kevin = classroom[0] and his quizzes are mapped to getGrade so that the mean
+  In the first question, we used Kevin as an example to retrieve his quiz grade and saved it in a variable named "getGrade". 
+  Now Kevin's mean quiz grades must be calculated with two new tools - map and d3.mean. 
+  Kevin = classroom[0] and his quizzes are mapped to getGrade so that the mean
   can then be calculated and returned.
 </p>
   
   <p>
     A3 <br />
-    <i><b> The mean of quizzes for Kevin is not enough! You must now creat a function to find the mean quiz grade for any of the penguins!</b></i>
+    <i><b> The mean of quizzes for Kevin is not enough! You must now creat a function to find the mean quiz grade 
+      for any of the penguins!</b></i>
   </p>
   <p>
-    In this manner we were taught to create the world of penquin. 
+    In this manner we were taught to create the world of penguin. 
   </p>
-  <pre>var getPenguin=function(penguin){var pq=penguin.quizes.map(getGrade); var answer=d3.mean(pq); return answer;}</pre>
+  <pre>var meanQuiz=function(penguin){var pq=penguin.quizes.map(getGrade); var answer=d3.mean(pq); return answer;}</pre>
   <p> 
     And it can be tested with our faithful Kevin.
   </p>
-  <pre> var answer=getPenguin(classroom[0])</pre>
+  <pre> var answer=meanQuiz(classroom[0])</pre>
 
     <div class="world">
     <img src="world.png alt"">
@@ -74,7 +76,7 @@
     A4 <br />
      <i><b>That looks sloppy. Do it with only one line of code or FEEL MY WRATH!</b></i><br />
    So we once again bowed our heads and by forgoing the warm embrace of the function, shortened the command to:
-                             <pre> var meanquizpq=d3.mean(classroom.map(getPenguin))</pre>
+                             <pre> var meanQuizEach=d3.mean(classroom.map(meanQuiz))</pre>
                              </p>
                              
      <p> By now, there was sweat on our brows. Tears had been shed. But there was no reprieve. . . </p>
@@ -83,7 +85,12 @@
        <i><b>You found the mean quiz score for each penguin, now find the mean quiz score of all the penquins!</b></i>
            </p>
                              
-                             <pre>var allYall=d3.mean(classroom.map(getPenguin))</pre>
+                             <pre>var allYallQuiz=function(penquin)
+                             {
+                             var=pq=penguin.quizes.map(meanQuizEach);
+                             var answer=d3.mean(pq);
+                             return answer;
+                             }</pre>
                              
               
                              
